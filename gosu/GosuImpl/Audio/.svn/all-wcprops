@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Audio
+END
+AudioOpenAL.mm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Audio/AudioOpenAL.mm
+END
+ALChannelManagement.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Audio/ALChannelManagement.hpp
+END
+AudioToolboxFile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Audio/AudioToolboxFile.hpp
+END
+AudioAudiere.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Audio/AudioAudiere.cpp
+END
+OggFile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Audio/OggFile.hpp
+END
+AudioSDL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Audio/AudioSDL.cpp
+END
+AudioFile.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Audio/AudioFile.hpp
+END

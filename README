@@ -1,0 +1,13 @@
+Freegemas: open source clone of the famous Bejeweled for GNU/Linux and Windows.
+
+Dependencies:
+--------------
+In a deb-based system you can install the dependencies using the following command:
+  $ sudo apt-get install g++ libgl1-mesa-dev libpango1.0-dev libboost-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev
+
+Compiling and running:
+-----------------------
+  $ make libgosu
+  $ make
+  $ ./freegemas
+

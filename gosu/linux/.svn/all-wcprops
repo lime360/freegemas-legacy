@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/83/tags/0.5/gosu/linux
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/83/tags/0.5/gosu/linux/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/83/tags/0.5/gosu/linux/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/83/tags/0.5/gosu/linux/configure.ac
+END

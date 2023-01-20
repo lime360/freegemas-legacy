@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl
+END
+Math.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Math.cpp
+END
+InputTouch.mm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/InputTouch.mm
+END
+TimingUnix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/TimingUnix.cpp
+END
+TextInputX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/TextInputX.cpp
+END
+RubyGosu.swg
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/RubyGosu.swg
+END
+UtilityTouch.mm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/UtilityTouch.mm
+END
+FileWin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/FileWin.cpp
+END
+RubyGosu_DllMain.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/RubyGosu_DllMain.cxx
+END
+WindowX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/WindowX.cpp
+END
+Orientation.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Orientation.hpp
+END
+WinMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/WinMain.cpp
+END
+RubyGosuStub.mm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/RubyGosuStub.mm
+END
+TimingWin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/TimingWin.cpp
+END
+IO.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/IO.cpp
+END
+._RubyGosu.swg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/._RubyGosu.swg
+END
+RubyGosu_SWIG_GC_PATCH.patch
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/RubyGosu_SWIG_GC_PATCH.patch
+END
+InputWin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/InputWin.cpp
+END
+Async.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Async.cpp
+END
+WindowMac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/WindowMac.mm
+END
+WinUtility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/WinUtility.cpp
+END
+Orientation.mm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Orientation.mm
+END
+Iconv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Iconv.hpp
+END
+DirectoriesMac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/DirectoriesMac.mm
+END
+InputX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/InputX.cpp
+END
+RubyGosu_wrap.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/RubyGosu_wrap.cxx
+END
+MacUtility.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/MacUtility.hpp
+END
+DirectoriesWin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/DirectoriesWin.cpp
+END
+._WindowMac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/._WindowMac.mm
+END
+WindowTouch.mm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/WindowTouch.mm
+END
+Utility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Utility.cpp
+END
+DirectoriesTouch.mm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/DirectoriesTouch.mm
+END
+InputMac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/InputMac.mm
+END
+X11vroot.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/X11vroot.h
+END
+TimingApple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/TimingApple.cpp
+END
+Inspection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/Inspection.cpp
+END
+TextInputMac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/TextInputMac.mm
+END
+RubyGosu_wrap.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/RubyGosu_wrap.h
+END
+DirectoriesUnix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/DirectoriesUnix.cpp
+END
+TextInputWin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/TextInputWin.cpp
+END
+FileUnix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/FileUnix.cpp
+END
+WindowWin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/83/tags/0.5/gosu/GosuImpl/WindowWin.cpp
+END

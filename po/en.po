@@ -1,0 +1,100 @@
+# English translations for freegemas package.
+# Copyright (C) 2011 José Tomás Tocino García <theom3ga@gmail.com>
+# This file is distributed under the same license as the freegemas package.
+# jose <theom3ga@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: freegemas 0.4\n"
+"Report-Msgid-Bugs-To: theom3ga@gmail.com\n"
+"POT-Creation-Date: 2011-03-29 13:08+0200\n"
+"PO-Revision-Date: 2011-03-29 13:15+0200\n"
+"Last-Translator: jose <theom3ga@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/stateHowtoplay.cpp:20
+msgid ""
+"Bonus points are given when more than three identical gems are formed. "
+"Sometimes chain reactions, called cascades, are triggered, where chains are "
+"formed by the falling gems. Cascades are awarded with bonus points."
+msgstr ""
+"Bonus points are given when more than three identical gems are formed. "
+"Sometimes chain reactions, called cascades, are triggered, where chains are "
+"formed by the falling gems. Cascades are awarded with bonus points."
+
+#: src/stateHowtoplay.cpp:18
+msgid ""
+"Click the first gem and then click the gem you want to swap it with. If the "
+"movement is correct, they will swap and the chained gems will disappear."
+msgstr ""
+"Click the first gem and then click the gem you want to swap it with. If the "
+"movement is correct, they will swap and the chained gems will disappear."
+
+#: src/stateGame.cpp:79 src/stateMainMenu.cpp:42
+msgid "Exit"
+msgstr "Exit"
+
+#: src/scoreTable.cpp:51
+msgid "GAME OVER"
+msgstr "GAME OVER"
+
+#: src/stateHowtoplay.cpp:30
+msgid "How to play"
+msgstr "How to play"
+
+#: src/stateMainMenu.cpp:40
+msgid "How to play?"
+msgstr "How to play?"
+
+#: src/stateHowtoplay.cpp:31
+msgid "Press escape to come back"
+msgstr "Press escape to come back"
+
+#: src/stateGame.cpp:76
+msgid "Reset game"
+msgstr "Reset game"
+
+#: src/stateGame.cpp:73
+msgid "Show hint"
+msgstr "Show hint"
+
+#: src/stateHowtoplay.cpp:16
+msgid ""
+"The objective of the game is to swap one gem with an adjacent gem to form a "
+"horizontal or vertical chain of three or more gems."
+msgstr ""
+"The objective of the game is to swap one gem with an adjacent gem to form a "
+"horizontal or vertical chain of three or more gems."
+
+#: src/stateMainMenu.cpp:39
+msgid "Timetrial mode"
+msgstr "Timetrial mode"
+
+#: src/stateGame.cpp:733
+msgid "Turn off music"
+msgstr "Turn off music"
+
+#: src/stateGame.cpp:82 src/stateGame.cpp:730
+msgid "Turn on music"
+msgstr "Turn on music"
+
+#: src/scoreTable.cpp:71
+msgid "Write your name:"
+msgstr "Write your name:"
+
+#: src/main.cpp:39
+msgid "i18n not available"
+msgstr "English"
+
+#: src/stateGame.cpp:57
+msgid "score"
+msgstr "score"
+
+#: src/stateGame.cpp:63
+msgid "time left"
+msgstr "time left"

@@ -1,0 +1,86 @@
+PKG_CONFIG = @PKG_CONFIG@
+
+GOSU_DIR = @abs_top_srcdir@/..
+
+BASE_OBJS = Math.o Utility.o IO.o FileUnix.o TimingUnix.o WindowX.o	\
+	    Graphics/Bitmap.o InputX.o TextInputX.o			\
+	    Graphics/BitmapUtils.o Graphics/Color.o			\
+	    Graphics/TexChunk.o Graphics/Graphics.o Graphics/Image.o	\
+	    Graphics/BlockAllocator.o		\
+	    Graphics/Texture.o Graphics/LargeImageData.o		\
+	    Graphics/BitmapPNG.o Graphics/Font.o Graphics/BitmapBMP.o	\
+	    Graphics/TextUnix.o Graphics/Text.o	Graphics/Transform.o		\
+	    Graphics/BitmapColorKey.o DirectoriesUnix.o Audio/AudioSDL.o Inspection.o
+
+NET_OBJS = Sockets/CommSocket.o Sockets/ListenerSocket.o	\
+	   Sockets/Socket.o Sockets/MessageSocket.o
+
+OBJS = @GOSU_A_OBJS@
+
+XPLS = $(GOSU_DIR)/examples/Tutorial $(GOSU_DIR)/examples/TextInput
+
+CXXFLAGS = -fPIC -I.. @AUDIO_INC@ -Wall @PANGO_CXX_FLAGS@ @X_INCS@ \
+	   @HAVE_SYS_STAT_H@ \
+	   -DNDEBUG -O3 -pipe -fomit-frame-pointer \
+	   -I/usr/include/SDL
+
+LIBS = -L@x_libraries@ -lX11 @PANGO_LIBS@ @AUDIO_LIBS@ -lpng -lstdc++ -lGL -lSDL_ttf #-lboost_thread
+
+all: @TO_BE_MADE@
+
+directories:
+	if [ \! -d ../bin ]; then mkdir ../bin; fi
+	if [ \! -d ../lib ]; then mkdir ../lib; fi
+	if [ \! -d Graphics ]; then mkdir Graphics; fi
+	if [ \! -d Sockets ]; then mkdir Sockets; fi
+	if [ \! -d Audio ]; then mkdir Audio; fi
+
+../lib/libgosu.a: $(OBJS)
+	ar -r ../lib/libgosu.a @GOSU_A_OBJS@
+
+../lib/libgosu.so: 
+	g++ -shared -o ../lib/libgosu.so ${LIBS} @GOSU_A_OBJS@
+
+install: @INSTALL_ACTION@
+
+uninstall: @UNINSTALL_ACTION@
+
+cpp_install:
+	cp -p ../lib/libgosu.a /usr/lib/
+	cp -p ../lib/libgosu.so /usr/lib/
+	cp -p ../bin/gosu-config /usr/bin/
+	cp -pr ../Gosu /usr/include
+	ldconfig
+
+cpp_uninstall:
+	rm /usr/lib/libgosu.a
+	rm /usr/lib/libgosu.so
+	rm /usr/bin/gosu-config
+	rm -rf /usr/include/Gosu
+	ldconfig
+
+clean:
+	rm -f $(OBJS) $(XPLS) ../lib/libgosu* ../lib/gosu?* ../bin/gosu-config
+	rmdir Audio Graphics Sockets
+
+$(OBJS): %.o: $(GOSU_DIR)/GosuImpl/%.cpp
+	$(CXX) $(GOSU_DIR)/GosuImpl/$*.cpp -o $@ $(CXXFLAGS) -c
+
+examples: $(XPLS) ../lib/libgosu.a
+
+$(XPLS): %: %.cpp ../lib/libgosu.a
+	$(CXX) $@.cpp -o $@ $(CXXFLAGS) $(LIBS) ../lib/libgosu.a
+
+../bin/gosu-config:
+	echo "#!/bin/bash" > ../bin/gosu-config
+	echo "while test \$$# -gt 0; do" >> ../bin/gosu-config
+	echo "    case \$$1 in" >> ../bin/gosu-config
+	echo "    --libs)" >> ../bin/gosu-config
+	echo '    echo "$(LIBS)";;' >> ../bin/gosu-config
+	echo "    --cxxflags)" >> ../bin/gosu-config
+	echo '    echo "$(CXXFLAGS)";;' >> ../bin/gosu-config
+	echo "    esac" >> ../bin/gosu-config
+	echo "    shift" >> ../bin/gosu-config
+	echo "done" >> ../bin/gosu-config
+	chmod u+x ../bin/gosu-config
+
