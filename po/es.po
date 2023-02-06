@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freegemas 0.4\n"
 "Report-Msgid-Bugs-To: theom3ga@gmail.com\n"
-"POT-Creation-Date: 2011-03-29 13:08+0200\n"
+"POT-Creation-Date: 2023-01-20 15:01+0200\n"
 "PO-Revision-Date: 2011-03-29 12:58+0200\n"
 "Last-Translator: jose <theom3ga@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -87,10 +87,6 @@ msgstr "Encender música"
 msgid "Write your name:"
 msgstr "Escribe tu nombre:"
 
-#: src/main.cpp:39
-msgid "i18n not available"
-msgstr "Español"
-
 #: src/stateGame.cpp:57
 msgid "score"
 msgstr "puntos"
@@ -99,5 +95,12 @@ msgstr "puntos"
 msgid "time left"
 msgstr "tiempo restante"
 
+#: src/main.cpp:38
+msgid "using default"
+msgstr ""
+
 #~ msgid "hola"
 #~ msgstr "Hola desde español"
+
+#~ msgid "i18n not available"
+#~ msgstr "Español"
